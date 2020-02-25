@@ -1,0 +1,7 @@
+name: FirstMinecraftPlugin
+version: 1.0
+author: superjoy0502
+description: Java Minecraft Plugin
+main: com.github.superjoy0502.FirstMinecraftPlugin.Main
+commands:
+	testCMD

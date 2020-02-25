@@ -1,0 +1,16 @@
+import org.opentutorials.iot.Elevator;
+
+public class OkJavaGoInHome {
+
+	public static void main(String[] args) {
+		
+		// Elevator call
+		
+		
+		// Security off
+		
+		// Light on
+
+	}
+
+}

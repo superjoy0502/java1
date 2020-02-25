@@ -1,0 +1,17 @@
+import org.opentutorials.iot.Elevator;
+
+public class OkJavaGoInHome {
+
+	public static void main(String[] args) {
+		
+		// Elevator call
+		Elevator myElevator = new Elevator("JAVA APT 507");
+		System.out.println(1400/85);
+		
+		// Security off
+		
+		// Light on
+
+	}
+
+}

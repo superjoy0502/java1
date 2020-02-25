@@ -1,0 +1,29 @@
+package com.github.superjoy0502.FirstMinecraftPlugin;
+
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin {
+	@Override
+	public void onEnable() {
+		Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "JAVA PLUGIN LOADED");
+	}
+
+	@Override
+	public void onDisable() {
+		Bukkit.getConsoleSender().sendMessage(ChatColor.RED + "JAVA PLUGIN CLOSED");
+	}
+
+	@Override
+	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+		if(command.getName().equalsIgnoreCase("JoyCMD")) {
+			sender.sendMessage("Hello " + getName() + "!");
+			return true;
+		}
+		return false;
+	}
+
+}

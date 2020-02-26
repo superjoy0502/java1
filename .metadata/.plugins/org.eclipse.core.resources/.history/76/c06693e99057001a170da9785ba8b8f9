@@ -1,5 +1,0 @@
-name: First Minecraft Plugin
-version: 1.0
-author: superjoy0502
-description: Java Minecraft Plugin
-main: com.github.superjoy0502.FirstMinecraftPlugin.Main
